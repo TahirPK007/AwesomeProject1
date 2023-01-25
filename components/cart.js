@@ -12,14 +12,14 @@ const cart = () => {
                         title='Add to cart'
 
                     />
-                    </View>
+                </View>
                 <View style={{ justifyContent: "center", alignItems: "center" }}>
                     <Image style={{ height: 200, width: 150 }} source={require('../assets/3.jpg')} />
                     <Button
                         title='Add to cart'
 
                     />
-                    </View>
+                </View>
                 <View style={{ justifyContent: "center", alignItems: "center" }}>
                     <Image style={{ height: 200, width: 150 }} source={require('../assets/3.jpg')} />
                     <Button

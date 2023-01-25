@@ -55,4 +55,4 @@ const imageapifetch = () => {
     )
 }
 
-export default imageapifetch
+export default imageapifetch;
