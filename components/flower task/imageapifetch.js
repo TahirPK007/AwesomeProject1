@@ -1,9 +1,9 @@
-import { View, Text, FlatList, Image,ScrollView } from 'react-native'
+import { View, Text, FlatList, Image,ScrollView,Button } from 'react-native'
 import React, { useState, useEffect } from 'react'
 
 
 
-const imageapifetch = () => {
+const imageapifetch = ({navigation}) => {
 
 
     const showItem = ({ item, index }) => {
@@ -45,6 +45,12 @@ const imageapifetch = () => {
     return (
         <View>
             <Text>imageapifetch</Text>
+            <View>
+                <Button
+                title='add new flower image'
+                onPress={()=>navigation.navigate("imagedbapi")}
+                />
+            </View>
             <FlatList
 
                 data={data}
