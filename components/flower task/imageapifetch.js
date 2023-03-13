@@ -12,7 +12,6 @@ const imageapifetch = ({navigation}) => {
             <View style={{ marginTop: 10, alignItems: 'center', }} key={index}>
                 <ScrollView style={{
                 }}>
-
                     <Text style={{ fontSize: 20, color: 'white', marginLeft: 8, color: 'black', fontWeight: 'bold' }}>  {item.name}</Text>
                     <Text style={{ fontSize: 20, color: 'white', marginLeft: 8, color: 'black', fontWeight: 'bold' }}>  {item.contact}</Text>
                     <View style={{ alignItems: 'center' }}>
