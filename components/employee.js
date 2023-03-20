@@ -165,7 +165,6 @@ const employee = () => {
                 onValueChange={(value) => { setradio(value) }}
                 value={radio}
             >
-
                 <RadioButton.Item label="male" value="male" />
                 <RadioButton.Item label="female" value="female" />
             </RadioButton.Group>

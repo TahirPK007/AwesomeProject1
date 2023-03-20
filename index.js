@@ -13,5 +13,6 @@ import quiz from './components/quiz';
 import tasklab from './components/tasklab';
 import home1 from './components/flower task/home1';
 import datepicker from './components/datepicker';
+import employee from './components/employee';
 
-AppRegistry.registerComponent(appName, () => datepicker);
+AppRegistry.registerComponent(appName, () => employee);
