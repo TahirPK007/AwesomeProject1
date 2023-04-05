@@ -14,5 +14,6 @@ import tasklab from './components/tasklab';
 import home1 from './components/flower task/home1';
 import datepicker from './components/datepicker';
 import employee from './components/employee';
+import LoginDark from './components/LoginDark';
 
-AppRegistry.registerComponent(appName, () => employee);
+AppRegistry.registerComponent(appName, () => LoginDark);
