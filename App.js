@@ -41,6 +41,7 @@ import home1 from './components/flower task/home1';
 import imageapifetch from './components/flower task/imageapifetch';
 import imagedbapi from './components/flower task/imagedbapi';
 import Signup from './components/flower task/Signup';
+import Usefocus from './components/hooks/Usefocus';
 
 const Stack = createNativeStackNavigator();
 const db = openDatabase({name: 'productdata'});
@@ -66,6 +67,7 @@ const App = () => {
         <Stack.Screen name="task3" component={task3} />
         <Stack.Screen name="NewPizza" component={NewPizza} />
         <Stack.Screen name="TakeOrder" component={TakeOrder} />
+        <Stack.Screen name="Usefocus" component={Usefocus} />
       </Stack.Navigator>
     </NavigationContainer>
   );
